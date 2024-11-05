@@ -33,7 +33,7 @@ CursorLimitApp is a Windows Forms application that allows users to restrict the 
 
 ### Download Compiled Executable
 
-You can download a compiled executable from the [Releases](https://github.com/qwoplakjos/CursorLimitApp/releases) section on GitHub.
+You can download a compiled executable from the [Releases](https://github.com/qwoplakjos/CursorLimiter/releases) section on GitHub.
 
 ## Usage
 
