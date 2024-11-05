@@ -37,7 +37,7 @@ namespace CursorLimitApp
 
         private void SelectAreaButton_Click(object sender, EventArgs e)
         {
-            using (var selectionForm = new SelectionForm())
+            using (var selectionForm = new SelectionForm(Screen.FromControl(this)))
             {
                 if (selectionForm.ShowDialog() == DialogResult.OK)
                 {
@@ -115,8 +115,9 @@ namespace CursorLimitApp
 
         public Rectangle SelectedRectangle { get; private set; }
 
-        public SelectionForm()
+        public SelectionForm(Screen screen)
         {
+            
             this.FormBorderStyle = FormBorderStyle.None;
             this.WindowState = FormWindowState.Maximized;
             this.BackColor = Color.Gray;
@@ -126,7 +127,10 @@ namespace CursorLimitApp
             this.TopMost = true;
             this.Cursor = Cursors.Cross;
             this.DoubleBuffered = true;
+
+            this.Bounds = screen.Bounds;
         }
+
 
         protected override void OnMouseDown(MouseEventArgs e)
         {
