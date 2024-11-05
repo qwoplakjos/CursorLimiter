@@ -23,6 +23,7 @@ namespace CursorLimitApp
             {
                 Interval = 100
             };
+
             _clipTimer.Tick += (s, e) =>
             {
                 if (_isClipActive && !_clippedRectangle.IsEmpty && !Cursor.Clip.Equals(_clippedRectangle))
