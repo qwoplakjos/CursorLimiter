@@ -1,7 +1,7 @@
 
-# MouseLimitApp
+# Cursor Limiter
 
-MouseLimitApp is a Windows Forms application that allows users to restrict the mouse cursor to a selected area on the screen. The app provides an overlay for selecting the area, with options to enable or disable the cursor restriction and a hotkey to toggle it on and off.
+CursorLimitApp is a Windows Forms application that allows users to restrict the mouse cursor to a selected area on the screen. The app provides an overlay for selecting the area, with options to enable or disable the cursor restriction and a hotkey to toggle it on and off.
 
 ## Features
 
@@ -21,8 +21,8 @@ MouseLimitApp is a Windows Forms application that allows users to restrict the m
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/qwoplakjos/MouseLimitApp.git
-   cd MouseLimitApp
+   git clone https://github.com/qwoplakjos/CursorLimitApp.git
+   cd CursorLimitApp
    ```
 
 2. **Open the project in Visual Studio** (or your preferred .NET IDE).
@@ -33,7 +33,7 @@ MouseLimitApp is a Windows Forms application that allows users to restrict the m
 
 ### Download Compiled Executable
 
-You can download a compiled executable from the [Releases](https://github.com/qwoplakjos/MouseLimitApp/releases) section on GitHub.
+You can download a compiled executable from the [Releases](https://github.com/qwoplakjos/CursorLimitApp/releases) section on GitHub.
 
 ## Usage
 
